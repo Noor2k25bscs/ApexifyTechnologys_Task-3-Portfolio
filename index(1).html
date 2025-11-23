@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Allah Bachaie Soomro</title>
+
+  <!-- icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Portfolio.</a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button id="menu-btn" class="menu-btn"><i class='bx bx-menu'></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <small class="muted">Hello, it's me</small>
+        <h1 class="hero-title">Allah Bachaie Soomro</h1>
+        <h2 class="hero-sub">And I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+        <p class="hero-desc">I build modern, responsive websites and UI experiences. I enjoy turning ideas into clean and elegant code.</p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="#projects" class="btn ghost">See Projects</a>
+        </div>
+
+        <div class="socials">
+          <a href="#" aria-label="facebook"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#" aria-label="twitter"><i class='bx bxl-twitter'></i></a>
+          <a href="#" aria-label="instagram"><i class='bx bxl-instagram'></i></a>
+          <a href="#" aria-label="linkedin"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- placeholder hex-shaped profile (replace profile.jpg) -->
+        <div class="hex-frame">
+          <img src="images/image1.png" alt="Profile" class="profile-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <p class="lead">I’m a creative web developer. I make responsive websites with attractive UI and strong usability. I love learning new tools and applying them to build simple solutions that help people.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+
+      <div class="skills-grid">
+        <div class="skills-column">
+          <h3 class="box-title">Coding Skills</h3>
+          <div class="skill">
+            <div class="skill-head"><span>HTML</span><span>90%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>CSS</span><span>80%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>JavaScript</span><span>70%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>React</span><span>65%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="65%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <h3 class="box-title">Professional Skills</h3>
+          <div class="skill">
+            <div class="skill-head"><span>Web Design</span><span>95%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="95%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>UI/UX</span><span>85%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>SEO</span><span>60%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="60%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Project Mgmt</span><span>70%</span></div>
+            <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title">My <span>Services</span></h2>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-code'></i></div>
+          <h3>Web Development</h3>
+          <p>Build responsive, accessible websites with clean front-end code.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-paint'></i></div>
+          <h3>Graphic Design</h3>
+          <p>Logos, branding and visuals to make your project stand out.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-brush'></i></div>
+          <h3>UI / UX Design</h3>
+          <p>Designing user-friendly interfaces and micro-interactions.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-line-chart'></i></div>
+          <h3>SEO</h3>
+          <p>Improve visibility and organic traffic with proven techniques.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-video'></i></div>
+          <h3>Video Editing</h3>
+          <p>Short promotional and social videos for your brand.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class='bx bx-camera'></i></div>
+          <h3>Photography</h3>
+          <p>Product and profile photography with clean post-processing.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <!-- swap images with your screenshots -->
+        <div class="project-card">
+          <div class="project-info">
+            <h4>Personal Portfolio</h4>
+            <p>Responsive portfolio website with animations and contact form.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h4>E-Commerce UI</h4>
+            <p>Product listing, filters and cart UI prototype.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h4>Task Manager App</h4>
+            <p>Task CRUD, priorities and calendar integration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get <span>In Touch</span></h2>
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="allahbachaie soomro" required>
+          <input type="email" name="email" placeholder="allahbachaie123@gmail.com" required>
+          <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>Email: allahbachaie123@gmail.com</p>
+          <p>Phone: +123 456 7890</p>
+          <p>Location: Hala new, Pakistan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
